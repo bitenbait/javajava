@@ -7,7 +7,6 @@ public class App {
     }
 
     public void run() {
-        System.out.println("Hello!");
-        System.out.println("I am Bitenbait!");
+        new SayHello().run();
     }
 }
